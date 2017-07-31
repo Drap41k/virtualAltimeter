@@ -1,0 +1,30 @@
+body {
+	padding: 0;
+	min-width: 320px;
+}
+.box {
+	width: 700px;
+	height: 700px;
+	margin: 0 auto;
+	/*background: url("http://ic.pics.livejournal.com/alligator_sx/14029012/54355/54355_900.jpg");*/
+	background: url("../images/alti.png");
+	position: relative;
+}
+.arrow {
+	height: 230px;
+	width: 2px;
+	background: #000;
+	position: absolute;
+	left: 50%;
+	top: 117px;
+	margin-left: 3px;
+	transform-origin: bottom left;
+	transition: all 50ms linear;
+
+	top: 163px;
+	margin-left: -25px;
+	transform-origin: 30px 185px;
+	background: url("../images/arrow.png");
+	width: 58px;
+	height: 280px;
+}
