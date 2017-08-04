@@ -1,0 +1,13 @@
+{
+  "paths": {
+    "scripts": "scripts",
+    "styles": "css",
+    "images": "images"
+
+  },
+  "fileNames": {
+    "mainHTML": "index.html",
+    "buildJS": "main.js",
+    "allCSS": "styles.css"
+  }
+}
