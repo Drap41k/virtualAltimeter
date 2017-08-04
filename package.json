@@ -1,0 +1,20 @@
+{
+  "name": "virtual-altimeter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drap41k/virtualAltimeter.git"
+  },
+  "author": "Den",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Drap41k/virtualAltimeter/issues"
+  },
+  "homepage": "https://github.com/Drap41k/virtualAltimeter#readme"
+}
