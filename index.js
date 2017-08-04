@@ -1,7 +1,7 @@
-const http = require('http');
+const http = require('https');
 
 const server = http.createServer((req, res) => {
   res.end('Hello');
 });
 
-server.listen(5000);
+server.listen(process.env.PORT || 5000);
