@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
-	<meta name="viewport" content="width=600, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 
 	<title>AltiSimulator</title>
 	<link rel="stylesheet" href="css/styles.css">
@@ -12,6 +11,47 @@
 	<div class="box">
 		<div class="arrow"></div>
 		<button class="start">Jump!</button>
+		<button class="settings">Settings</button>
+	</div>
+	<div class="menu">
+		<ul>
+			<li>
+				<label>
+					Include hi-speed malfunction
+					<input type="checkbox" name="hi-speed">
+				</label>
+			</li>
+			<li>
+				<label>
+					Include low-speed malfunction
+					<input type="checkbox" name="low-speed">
+				</label>
+			</li>
+			<li>
+				<label>
+					Include hi-speed malfunction
+					<input type="checkbox" name="hi-speed">
+				</label>
+			</li>
+			<li>
+				<div class="row">
+					Select free fall speed from list:
+					<select name="speed">
+						<option>25</option>
+						<option selected>50</option>
+						<option>100</option>
+						<option>150</option>
+						<option>200</option>
+					</select>
+				</div>
+				<div class="row">
+					<label>
+						or input custom
+						<input name="custom-speed" type="number">
+					</label>
+				</div>
+			</li>
+		</ul>
 	</div>
 	<script src="js/main.js"></script>
 </body>

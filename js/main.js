@@ -54,7 +54,7 @@
 
   var alti = new Alti({
     alti: 1000,
-    fallingSpeed: 50,
+    fallingSpeed: 200,
     startButton: document.getElementsByClassName('start')[0],
     arrow: document.getElementsByClassName('arrow')[0]
   });
